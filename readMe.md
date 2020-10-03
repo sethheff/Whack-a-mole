@@ -58,4 +58,6 @@ Challenges:
 
 Working in JS has been difficult for me and a learning curve. Via some help from a developer friend, my classmates, and my teachers I was able to overcome the difficulties.
 
+In particular the randomMoleHill function was tough because we had to figure out a way to make the randomized selection NOT pick the same mole hill twice. We achieved this bey creating a variable that stored the last moleHill index-value and compare it to the next one.
+
 App Demo: https://sethheff.github.io/Whack-a-mole/
