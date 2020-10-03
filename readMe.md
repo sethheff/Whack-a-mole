@@ -21,7 +21,7 @@ Overview
 
 I attended office hours with Mateen and saw how to make a wireframe in figma. I used this wireframe as a basis for my direction with the game. After this, I worked with the help a programming friend of mine in order to achieve a result similar to the wireframe. There were some differences.
 
-Wireframe
+
 
 
 
