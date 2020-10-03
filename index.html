@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="UTF-8" />
+         <title>Whack A Mole!</title>
+         <link
+        href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap"
+             rel="stylesheet"
+             type="text/css"
+         />
+         <link rel="stylesheet" href="style.css" />
+     </head>
+     <body>
+         
+        <div class= 'container'>
+     
+         <h1>Whack-a-Mole! </h1>
+         <h1><span class="yourPoints">0</span></h1>
+           <!--im using span because I want to independently change the styling of my yourPoints id (0)-->
+         <h3>Timer left: <span id='time-left'>30</span></h3>
+         
+        </div> 
+         <!-- onClick is telling our HTML to run a JS functon when this button is clicked-->
+       
+         <button class = 'startButton' onClick="startGame()">Start!</button>
+       
+        <!-- This is my 'gameBoard' which contains 9 divs. Each div has 2 classes. One is moleHill, the second  is a class of mole. This will be used to asign CSS to show moles coming out of the mole hills -->
+      
+          
+          
+         <div class="gameBoard">
+             <div class="moleHill"><div class="mole"></div></div>
+             <div class="moleHill"><div class="mole"></div></div>
+             <div class="moleHill"><div class="mole"></div></div>
+             <div class="moleHill"><div class="mole"></div></div>
+             <div class="moleHill"><div class="mole"></div></div>
+             <div class="moleHill"><div class="mole"></div></div>
+             <div class="moleHill"><div class="mole"></div></div>
+             <div class="moleHill"><div class="mole"></div></div>
+             <div class="moleHill"><div class="mole"></div></div>
+         </div>
+
+         <script src="app.js"></script>
+     </body>
+ </html>
