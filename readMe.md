@@ -9,11 +9,12 @@ In my Whack-a-Mole game you have 30 seconds to try and 'whack' as many moles and
 
 Technologies Used:
 
+```
 HTML
 CSS
 JavaScript
+```
 
-Credits:
 
 
 Overview
