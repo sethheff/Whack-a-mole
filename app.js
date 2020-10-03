@@ -5,7 +5,7 @@ const moleHills = document.querySelectorAll(".moleHill");
 const moles = document.querySelectorAll(".mole"); 
 const showTimeLeft = document.querySelector('#time-left')
     const startButton = document.querySelector('.start-button')
-    let timeLeft = 30
+    let timeLeft = 60
  let timesUp = false;
  let yourPoints = 0;
  let lastMoleHill;  
@@ -72,14 +72,14 @@ function randomTime(min, max) {
      yourPoints = 0;
      // run the show() function
      show();
-     // after 30,000 millisecond (30 seconds) set timesUp to true so that the game ends.
+     // after 60,000 millisecond (60 seconds) set timesUp to true so that the game ends.
      countDown();
      
-     setTimeout(() => (timesUp = true), 30000);
+     setTimeout(() => (timesUp = true), 60000);
  }
 
  function whack(e) {
-     if (!e.isTrusted) return; // 
+     if (!e.isTrusted) return; // tells you if there is a cheater
      yourPoints++; // if you successfully whack-a-mole, it will add 1 to your points via ++
      this.classList.remove("pop"); // the mole will go back down by removing the class of pop 
      points.textContent = yourPoints; // we will set the points to reflect how many points you get by whacking-moles
